@@ -1,0 +1,20 @@
+.searchPerson i {
+    position: absolute;
+    font-size: 1rem;
+    color: var(--gray50);
+    padding-inline-start: 1rem;
+    padding-inline-end: 10.25rem;
+    padding-block: 0.75rem;
+}
+
+.searchPerson input {
+    inline-size: 12.25rem;
+    block-size: 2.5rem;
+    border-radius: 0.25rem;
+    background: var(--gray10);
+    border: none;
+    font: var(--body1-regular);
+    color: var(--gray20);
+    padding-block: 0.625rem;
+    padding-inline-start: 2.5rem;
+}

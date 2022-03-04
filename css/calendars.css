@@ -1,0 +1,44 @@
+.calendars {
+    max-inline-size: 12.25rem;
+}
+
+.calendars-header {
+    max-block-size: 1.5rem;
+    margin-block-end: .5rem;
+    padding-inline-start: 0.25rem;
+}
+
+.calendars-header p {
+    display: inline-block;
+    margin: 0;
+    padding-block: 0.125rem;
+    font: var(--body1-medium);
+    color: var(--gray30);
+}
+
+.calendars-header i {
+    color: var(--gray50);
+    font-size: 1.5rem;
+    padding-block: 0.5625rem;
+    padding-inline: 0.375rem;
+    vertical-align: middle;
+    margin-inline-start: 3.3rem;
+}
+
+.calendars-content {
+    display: flex;
+    align-items: center;
+    margin-block-end: 0.75rem;
+}
+
+.calendars-content i {
+    font-size: 1.5rem;
+    color: var(--gray50);
+    margin-inline: 0.25rem;
+}
+
+.calendars-content p {
+    margin: 0;
+    font: var(--body1-regular);
+    color: var(--gray30);
+}

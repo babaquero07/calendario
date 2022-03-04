@@ -1,0 +1,23 @@
+@import './task.css';
+@import './task-cell.css';
+@import './task-cells.css';
+@import './calendar-day.css';
+@import './timezone.cell.css';
+@import './hour-cell.css';
+@import './current-time.css';
+
+.calendar {
+    --minBlockSize: 4rem;
+    --maxBlockSize: auto;
+    --minInlineSize: 5rem;
+    --maxInlineSize: 1fr;
+    color: var(--gray20);
+    padding-inline: 1.5rem;
+    position: relative;
+}
+
+.calendar-week {
+    display: grid;
+    grid-template: repeat(24, minmax(var(--minInlineSize), var(--maxInlineSize))) / auto repeat(7, minmax(var(--minBlockSize), var(--maxBlockSize)));
+    min-block-size: 700px;
+}
